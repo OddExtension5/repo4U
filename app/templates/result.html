@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+  <h3>You Might Like This</h3>
+  <br />
+  <br />
+  {% for suggestion in suggestions %}
+  <p><li><a href="https://github.com/{{ suggestion }}">{{ suggestion }}</a></li></p>
+  {% endfor %}
+  <br/>
+  <a href="/"><button class="btn btn-success">Again</button></a>
+</div>
+{% endblock %}
