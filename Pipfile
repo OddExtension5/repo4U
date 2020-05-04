@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 gunicorn = "*"
 scikit-learn = "==0.21.3"
+dill = "*"
 
 [requires]
 python_version = "3.7"
