@@ -34,7 +34,7 @@ Six Simple Steps to run-app locally:
 
 ## Team Detail
 
-**Team ID**: 4242a3aec90c7439453bb6254000b1324879 <br/?
+**Team ID**: 4242a3aec90c7439453bb6254000b1324879 <br/>
 **Team Name**: DevDevil <br/>
 **Team Member**: [Sushil Singh](https://github.com/OddExtension5) & [Harsh Sinha](https://github.com/justarandomcontributor)
 
