@@ -10,6 +10,11 @@ flask = "*"
 gunicorn = "*"
 scikit-learn = "==0.21.3"
 dill = "*"
+jinja2 = "*"
+numpy = "*"
+joblib = "*"
+pandas = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.7"
