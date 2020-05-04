@@ -22,7 +22,7 @@ Wanna play with my project go to the link: https://repo4u.herokuapp.com/
 ## Local Run
 
 Six Simple Steps to run-app locally:
-  1. ``Clone`` the repository using **``git clone <link of the repository>```** command
+  1. ``Clone`` the repository using **``git clone <link of the repository> ``** command
   2. Change your directory to the root directory of the project
   3. Run **``pipenv install``** (it will install all the dependencies and create a virtual environment for you)
   4. Run **``pipenv shell``** (to activate the virtual environment)
@@ -34,8 +34,8 @@ Six Simple Steps to run-app locally:
 
 ## Team Detail
 
-**Team ID**: 4242a3aec90c7439453bb6254000b1324879
-**Team Name**: DevDevil
+**Team ID**: 4242a3aec90c7439453bb6254000b1324879 <br/?
+**Team Name**: DevDevil <br/>
 **Team Member**: [Sushil Singh](https://github.com/OddExtension5) & [Harsh Sinha](https://github.com/justarandomcontributor)
 
 ## Copyright & License
