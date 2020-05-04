@@ -21,7 +21,4 @@ def predict():
     repos = ",".join([r.strip() for r in repos.split(",")])
     suggestions = model.predict([repos])[0]
     random.shuffle(suggestions)
-    return render_template("result.html", suggestions=suggestions[:10])
-
-if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    return render_template("result.html", suggestions=suggestions[:5])
