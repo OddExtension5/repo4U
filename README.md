@@ -2,7 +2,7 @@
 
 It's a mini ``GitHub Repository Recommender`` that uses a collaborative filtering type to provide new users a recommendation of the list of repositores they might like given the list of repo or language or tools or libraries etc., they already like.
 
-Wanna play with my project go to the link: https://repo4u.herokuapp.com/
+Wanna play with my app, here is the link: https://repo4u.herokuapp.com/
 
 ## Project Diagram
 
