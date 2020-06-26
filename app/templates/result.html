@@ -1,13 +1,23 @@
-{% extends "base.html" %}
-{% block content %}
-<div>
-  <h3>You Might Like This</h3>
-  <br />
-  <br />
-  {% for suggestion in suggestions %}
-  <p><li><a href="https://github.com/{{ suggestion }}">{{ suggestion }}</a></li></p>
-  {% endfor %}
-  <br/>
-  <a href="/"><button class="btn btn-success">Again</button></a>
-</div>
+{% extends "base.html" %} {% block content %}
+<section id="result-page">
+    <div class="row justify-content-around">
+        <div class="col-10 col-md-8 col-lg-6">
+            <div class="card bg-transparent text-center">
+                <h4 class="card-header text-danger">Here are some recomendations just for you!</h4>
+                <div class="card-body text-left">
+                    {% for suggestion in suggestions %}
+                    <ul>
+                        <li><a href="https://github.com/{{ suggestion }}"><strong>{{ suggestion }}</strong></a></li>
+                    </ul>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-auto">
+        <div class="col text-center">
+            <a href="/"><button class="btn btn-success m-2">Reset</button></a>
+        </div>
+    </div>
+</section>
 {% endblock %}

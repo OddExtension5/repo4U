@@ -1,13 +1,42 @@
-{% extends "base.html" %}
-{% block content %}
-<form action = "/result" method="POST">
-  <h3>You Already LIKE</h3>
-  <br />
-  <div class="form-group">
-    <textarea class="form-control" rows="3" type="text" name="repos" placeholder="{{ random_repos }}"></textarea>
-    <!-- <input class="form-control input-lg" id="inputlg" type="text" name="repos" value="{{ random_repos }}" /> -->
-  </div>
-  <br />
-  <button type="submit" class="btn btn-primary">Go</button>
-</form>
+{% extends "base.html" %} {% block content %}
+<section id="landing-page">
+    <div class="row justify-content-around">
+        <div class="col-10 col-md-8 col-lg-6">
+            <div class="card bg-transparent text-center">
+                <h4 class="card-header text-danger">Please enter some repos u already LIKE</h4>
+                <div class="card-body">
+                    <form action="/result" method="POST">
+                        <div class="row">
+                            <div class="form-group col">
+                                <textarea class="form-control border border-danger" rows="6" type="text" name="repos" placeholder="{{ random_repos }}"></textarea>
+                                <!-- <input class="form-control input-lg" id="inputlg" type="text" name="repos" value="{{ random_repos }}" /> -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <button type="submit" class="btn btn-success m-2">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
+
+<!-- OLD EXPERIMENTAL CODES FOR DEBUGGING -->
+<!-- <h3 class="text-primary text-center">Please enter some repos u already LIKE</h3>
+    <form action="/result" method="POST">
+        <div class="row m-2 justify-content-around">
+            <div class="form-group col-10 col-md-8 col-lg-6 align-self-center">
+                <textarea class="form-control border border-danger" rows="6" type="text" name="repos" placeholder="{{ random_repos }}"></textarea>
+                 <input class="form-control input-lg" id="inputlg" type="text" name="repos" value="{{ random_repos }}" /> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button type="submit" class="btn btn-success m-2">Search</button>
+            </div>
+        </div>
+    </form> -->
