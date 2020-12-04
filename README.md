@@ -39,5 +39,5 @@ Six Simple Steps to run-app locally:
 **Team Member**: [Sushil Singh](https://github.com/OddExtension5) & [Harsh Sinha](https://github.com/justarandomcontributor)
 
 ## Copyright & License
-Copyright (c) 2020 Repo4U - Released under the [MIT license](https://github.com/OddExtension5/repo-recommender/blob/master/LICENSE). 
+Copyright(c) 2020 Repo4U - Released under the [MIT license](https://github.com/OddExtension5/repo-recommender/blob/master/LICENSE). 
 
